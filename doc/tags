@@ -1,0 +1,7 @@
+:Note	note.txt	/*:Note*
+g:note_directory	note.txt	/*g:note_directory*
+g:note_filetype	note.txt	/*g:note_filetype*
+note-commands	note.txt	/*note-commands*
+note-settings	note.txt	/*note-settings*
+note.txt	note.txt	/*note.txt*
+note.vim	note.txt	/*note.vim*

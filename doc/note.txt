@@ -1,0 +1,39 @@
+*note.txt*	For Vim version 7.4	Last change: November 16, 2016
+
+Help for the note.vim plugin.
+
+1. Plugin			|note|
+2. Commands			|note-commands|
+3. Settings			|note-settings|
+
+==============================================================================
+1. Plugin                                                             *note.vim*
+
+A simple way to quickly access, edit, and search notes.
+
+==============================================================================
+2. Commands                                                      *note-commands*
+
+                                                                         *:Note*
+The |:Note| command creates a new note file or opens an existing one ready to
+be edited. Note files are located in the directory specified by
+|g:note_directory|. Note files do not have a file extension, only a name, the
+command informs Vim of the |filetype| once the note file is being edited
+based on the value of the |g:note_filetype| option.
+
+==============================================================================
+3. Settings                                                      *note-settings*
+
+                                                              *g:note_directory*
+The |g:note_directory| specifis the directory where notes reside, new notes
+will be saved there and existing notes can be found there.
+
+Default: `~`
+
+                                                               *g:note_filetype*
+The |g:note_filetype| specifies the |filetype| to be used for all note files
+allowing the use of any |filetype| to be used for creating notes.
+
+Default: `markdown`
+
+ vim:tw=78:ts=8:ft=help:norl:
